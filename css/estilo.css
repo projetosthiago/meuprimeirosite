@@ -2,8 +2,8 @@ body{
     background-color: #4d4740;
 }
 p{
-    color: rgb(255, 255, 255)
-;
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
 }
 h1, h2{
     color: aliceblue;
