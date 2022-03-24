@@ -1,8 +1,8 @@
 body{
-    background-color: #98FB98;
+    background-color: #4d4740;
 }
 p{
-    color: black
+    color: rgb(255, 255, 255)
 ;
 }
 h1, h2{
@@ -16,4 +16,10 @@ figure{
 .container{
     width: 70%;
     margin: auto;
+}
+.img_topo{
+    width: 100%;
+}
+.img_corpo{
+    width: 50%;
 }
