@@ -1,6 +1,12 @@
 body{
     background-color: #4d4740;
 }
+.itens_menu{
+text-align: center;
+}
+.itens_menu a:link, .itens_menu a:visited{
+color:aliceblue;
+}
 p{
     color: rgb(255, 255, 255);
     font-size: 1.5em;
