@@ -1,6 +1,7 @@
 html{
     scroll-behavior: smooth;
 }
+
 body{
     background-color: #4d4740;
 }
@@ -22,21 +23,27 @@ font-weight: bolder;
     background-color: aliceblue;
     padding: 0.5%;
 }
+
 .bota{
+    /*mouse hover link*/
     margin: 1%;
     width: 100px;
     height: 30px;
     padding: 2%;
-    background-color:#ffffff ;
+    background-color:white ;
     margin: auto;
+    margin-bottom: 2%; 
+    margin-top: 2%;
 }
 
 .botao:hover{
-    background-color:#4d4740;
+    background-color:#ffffff;
+    color: black;
 }
 
 .botao a:link, .botao a:visited{
-    color: aqua;
+    /*mouse hover link*/
+    color: slateblue;
     text-decoration: none;
     font-weight: bolder;
 }
@@ -49,10 +56,13 @@ p{
     color: rgb(255, 255, 255);
     font-size: 1.5em;
 }
-h1, h2{
+
+h1, h2, h3{
     color: aliceblue;
     text-align: center;
+    font-size: 2em;
 }
+
 figure{
     text-align: center;
 }
@@ -61,9 +71,38 @@ figure{
     width: 70%;
     margin: auto;
 }
+
 .img_topo{
     width: 100%;
 }
+
 .img_corpo{
-    width: 50%;
+    width: 75%;
+}
+
+/*unvisited link*/
+a:link{
+    color: blue;
+}
+
+/*visited link*/
+a:visited{
+    color: slateblue;
+}
+
+/*mouse over link*/
+a:hover{
+    color:  #CD853F;
+}
+
+footer{
+    background-color: rgba(9, 7, 6, 0.3);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+}
+footer p{    
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5em;
 }
