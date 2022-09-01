@@ -7,18 +7,93 @@
     <title>Teste Css Interno e Inline</title>
     <style>
         body{
-            background-color: greenyellow;
+            background-color: rgb(90, 79, 66);
         }
         h1{
-            background-color: azure;
+            background-color: rgb(255, 255, 255);
         }
         p{
-            background-color: aquamarine;
+            background-color: rgb(119, 85, 21);
+        }
+        .fixo{
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .main{
+            width: 100%;
+            height: 600px;
+            background-color: rgb(0, 0, 0);
+            position: relative;
+            text-align: center;
+        }
+
+        .container{
+            margin-top: 100px ;
+        }
+
+        .topoesq{
+            width: 20%;
+            background-color: rgb(43, 255, 0);
+            position: absolute;
+            top: 16px;
+            left: 16px;
+           
+        }
+        .topodir{
+            width: 20%;
+            background-color: rgb(255, 230, 0);
+            position: absolute;
+            top:16px;
+            right: 16px;
+            
+        }
+        .baixoesq{
+            width: 20%;
+            background-color: rgb(0, 141, 141);
+            position: absolute;
+            bottom: 16px;
+            left: 16px;
+            
+        }
+        .baixodir{
+            width: 20%;
+            background-color: rgb(44, 0, 94);
+            position: absolute;
+            bottom: 16px;
+            right: 16px;
+        }
+        .centro{
+            width: 20%;
+            background-color: rgb(255, 136, 0);
+            position: absolute;
+            top:300px;
+            margin-left: 40%;
+            
         }
     </style>
 </head>
 <body>
-    <h1 style="border-color: darkgreen; border-style: groove;">Teste Css Interno e Inline</h1>
+    <header>
+        <h1 class="fixo">Apredendo CSS Interno</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam perspiciatis, laudantium alias exercitationem adipisci soluta vel autem neque sit impedit non accusantium dolores, voluptatem inventore molestiae. Voluptatum et sunt accusantium!</p>
+        <ul style="background-color: darkgoldenrod;font-weight: bold;">   
+            <li style="color: brown;">Eu estou com fome</li>
+            <li style="color: brown;">Eu quero comer</li>
+        </ul> -->
+        </header>
+         <div class="container">
+        <h1>Testando posições</h1>
+        <div class = "main">
+            <div class="topoesq">topoesq</div>
+            <div class="topodir">topodir</div>
+            <div class="centro">centro</div>
+            <div class="baixoesq">baixoesq</div>
+            <div class="baixodir">baixodir</div>
+        </div>
+        <h1 style="border-color: darkgreen; border-style: groove;">Teste Css Interno e Inline</h1>
     <p style="border-color: darkgreen;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores aperiam tenetur deserunt impedit natus nihil libero odit dolores dolorem rem illo delectus, mollitia, incidunt ex sint architecto magnam eveniet velit?</p>
     <p style="border-color: darkgreen;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, voluptatem dolor consequatur quam, consequuntur laudantium veniam pariatur error exercitationem harum deleniti quidem non quaerat repellat corporis perspiciatis modi obcaecati itaque?</p>
      
